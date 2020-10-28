@@ -18,6 +18,9 @@ See the related [cookbook post](https://cookbook.fivem.net/2020/01/06/using-the-
 * **defaultMapper**: The mapper ID to use for the default binding, e.g. `keyboard`.
 * **defaultParameter**: The IO parameter ID to use for the default binding, e.g. `f3`.
 
+You can also prefix the command with + and create another command with the same name, prefixed with - 
+so the + one playes on the press of the button, and the - one playes when you release the button
+
 ## Examples
 
 ```lua
